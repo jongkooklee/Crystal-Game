@@ -1,0 +1,38 @@
+body {
+  background-image: url("./images/background.jpg");
+  height: 100%;
+}
+
+.img-responsive {
+  height: 200px;
+}
+
+.catrow {
+  margin: 10px 10px 10px 10px;
+}
+
+p#title {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 35px;
+  color: black;
+}
+
+#goalNumber {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 45px;
+  color: dodgerblue;
+}
+
+#currentNumber {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*@media screen and (max-width: 768px) {
+    .img-responsive {
+      float: none;
+    }
+  }*/

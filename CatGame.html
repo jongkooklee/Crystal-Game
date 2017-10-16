@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+
+<header>
+	<div id="top-header" class="col-md-12 text-center">
+			<p id=title><marquee behavior="alternate">CAT MATHEMATICS</marquee></p>
+
+</header>
+
+<body>
+		<div class="jewels col-md-5">
+		<div class="leftcol panel panel-default">
+  			<div class="catrow row panel-body">
+          <img class="fatbutton col-md-3 col-sm-3 img-responsive" src="./images/fatcat.jpg" alt="FILLER">
+          <img class="lionbutton col-md-3 col-sm-3 img-responsive" src="./images/lioncat.jpg" alt="FILLER">
+          <img class="whitebutton col-md-3 col-sm-3 img-responsive" src="./images/whitecat.jpg" alt="FILLER">
+          <img class="tigerbutton col-md-3 col-sm-3 img-responsive" src="./images/tigercat.jpg" alt="FILLER">
+        </div>
+		</div>
+		</div>
+
+		<div class="gameplay col-md-7 col-centered">
+		<div class="panel panel-default">
+  			<div class="panel-body">
+          <div class="row text-center">
+            <div class="col-4"><h3>Try to get to this number:</h3></div>
+            <div id="goalNumber" class="col-2"></div>
+          </div>
+  				<div class="row text-center">
+  					<div class="col-md-2 col-md-offset-4"><p>Wins:</p></div>
+  					<div class="col-md-2 wincount"></div>
+  				</div>
+          <div class="row text-center">
+            <div class="col-md-2 col-md-offset-4"><p>Losses:</p></div>
+            <div class="col-md-2 losscount"></div>
+          </div>
+  				<div class="row text-center"><p>Your current number:</p></div>
+          <div id="currentNumber" class="row text-center"></div>
+
+  			</div>
+		</div>
+		</div>
+
+<script src="./game.js">
+
+
+</script>
+</body>
+</html>
